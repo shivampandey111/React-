@@ -5,7 +5,6 @@ import heroImg from './assets/hero.png'
 import './App.css'
 import Card from '../Components/Card' //Card is a component that we can use multiple times, like instead of writing html, css and js traditionally in different files for a card, write it into one place and make it a component so that it can be used later
 function App() {
-  const [count, setCount] = useState(0)
   let myArr = [1,2,3,4]
   let myObj = {
     username: 'Hello'

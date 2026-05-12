@@ -38,11 +38,12 @@ const create = React.createElement(
 )
 
 ReactDOM.createRoot(document.getElementById('root')).render(
+  //So react creates its own dom and changes it and compares it to the browser dom and update it?? 
   //reactElement won't work becuase render expects a function with syntax of react
 
   //Now x in jsx is the html part, to insert js part we can write the js in the respective file
   <>
-    
+    {/* JSX, implement hmtl elements through js */ }
     <Hello />
     <World />
     <Hellooo />

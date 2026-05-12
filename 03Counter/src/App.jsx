@@ -8,8 +8,8 @@ import { use } from 'react'
 function App() {
 
 //useState()  //Used to propogates the changes in the UI
-//()  //This expects a default value, can be anything
-//const [] = useState()   //useState gives two values as an output in an array format, first is the name of the variable and second is the method
+//()  This expects a default value, can be anything
+//const [] = useState()   useState gives two values as an output in an array format, first is the name of the variable and second is the method
 const [counter, setCounter] = useState(0) //counter is the variable and setCounter is the method responsible for updating the variable
 const [para, setPara] = useState('')
  // let counter = 15;
